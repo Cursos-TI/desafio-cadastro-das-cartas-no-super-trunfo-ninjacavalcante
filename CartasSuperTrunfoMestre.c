@@ -45,13 +45,13 @@ int main() {
     printf("Digite o numero de pontos turisticos: ");
     scanf("%d", &pontos_turisticos2);
 
-    densidade1 = (float)populacao1 / area1;
+    densidade = (float)populacao / area;
     densidade2 = (float)populacao2 / area2;
-    pib_per1 = pib1 / populacao1;
+    pib_per = pib / populacao;
     pib_per2 = pib2 / populacao2;
 
     
-    super_poder1 = (float)populacao1 + area1 + pib1 + pontos_turisticos1 + pib_per1 + (1 / densidade1);
+    super_poder = (float)populacao + area + pib + pontos_turisticos + pib_per + (1 / densidade);
     super_poder2 = (float)populacao2 + area2 + pib2 + pontos_turisticos2 + pib_per2 + (1 / densidade2);
 
    
